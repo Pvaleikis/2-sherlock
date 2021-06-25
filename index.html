@@ -6,7 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sherlock</title>
     <style>
-       div{background-color:  #696F89;
+       .collumn {
+            position:absolute;
+            right: 350px;
+            top: 150px;
+            text-align: center;
+        }
+        .fat {
+            white-space: pre-wrap;
+        }
+        .sherlock{
+            max-width: 200%;  
+            height: auto;  
+            position: absolute;
+            left: 350px;
+            top:300px;
+        }
+
+       a{background-color:  #696F89;
+       text-transform: uppercase;
        width: 100px;
        height: 60px;
        text-align:center;}
@@ -14,13 +32,16 @@
     </style>
 </head>
 <body style="background-color: #EAEBED; font-family: Arial, Helvetica, sans-serif;">
-    <img src="404-Web-Page-Design-Examples-6.png" alt="404-Web-Page-Design-Examples-6.png">
-    <h1 style="color: black; font-size: 100px; ">404</h1>
-    <p style="font-size: 30px;color:#696F89">looks like this page is missing.
-        don't worry though, our best man
-        is on the case.
-    </p>
-    <p style="color: #ADB9D3; font-size: 16px;"> meanwhile, why don't you try again by going</p>
-    <div style="color: #EAEBED;">back home</div>
+    <img class="sherlock" src="404-Web-Page-Design-Examples-6.png" alt="404-Web-Page-Design-Examples-6.png">
+    <main class ="collumn">
+        <h1 style="color: black; font-size: 100px; ">404</h1>
+        <p class="fat" style="font-size: 30px;color:#696F89">Looks like this page is missing. 
+            Don't worry though, our best 
+            man is on the case.
+        </p>
+        <p style="color: #ADB9D3; font-size: 16px;"> Meanwhile, why don't you try again by going</p>
+        <a href="" style="color: #EAEBED;">back home</a>
+    </main>
+    
 </body>
 </html>
